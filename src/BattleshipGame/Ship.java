@@ -21,4 +21,7 @@ public class Ship {
         }
         return "Miss!";
     }
+    public boolean isSunk() {
+        return numOfHits == locationCells.length;
+    }
 }
